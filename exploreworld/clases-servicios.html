@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Clases y servicios - exploreworld</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <nav>
+            <div class="logo"></div>
+            <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">☰</button>
+            <ul id="navLinks">
+                <li><a href="index.html#inicio">Inicio</a></li>
+                <li><a href="index.html#vuelos">Vuelos</a></li>
+                <li><a href="index.html#hoteles">Hoteles</a></li>
+                <li><a href="index.html#transporte">Transporte</a></li>
+                <li><a href="index.html#reservas">Reservas</a></li>
+                <li><a href="index.html#recomendaciones">Recomendaciones</a></li>
+                <li><a href="index.html#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="container seccion-detalle">
+    <h1>Clases y servicios</h1>
+    <p>Te ayudamos a elegir la mejor clase de vuelo según tu presupuesto, duración del viaje y el tipo de experiencia que quieres vivir.</p>
+
+    <img src="imagenes/clases-servicios-hero.jpg" alt="Clases y servicios" class="hero-img">
+
+    <h2>Comparativa de clases</h2>
+    <div class="grid-detalle">
+        <div class="tarjeta-precio">
+            <h3>Turista</h3>
+            <p>La opción más económica, perfecta para viajes cortos o cuando el presupuesto es la prioridad.</p>
+            <ul>
+                <li>Asientos estándar</li>
+                <li>Equipaje de mano incluido</li>
+                <li>Opción de añadir equipaje facturado</li>
+            </ul>
+        </div>
+        <div class="tarjeta-precio">
+            <h3>Turista Premium</h3>
+            <p>Más espacio y comodidad, ideal para vuelos de media o larga duración.</p>
+            <ul>
+                <li>Más espacio para las piernas</li>
+                <li>Prioridad en embarque</li>
+                <li>Mejor selección de asientos</li>
+            </ul>
+        </div>
+        <div class="tarjeta-precio">
+            <h3>Business / First</h3>
+            <p>La experiencia más completa y exclusiva a bordo.</p>
+            <ul>
+                <li>Asientos cama o reclinables 180°</li>
+                <li>Salones VIP en aeropuertos seleccionados</li>
+                <li>Menús gourmet y atención personalizada</li>
+            </ul>
+        </div>
+    </div>
+
+    <h2>Rango de precios aproximados</h2>
+    <table class="tabla-precios">
+        <thead>
+            <tr>
+                <th>Clase</th>
+                <th>Recargo aproximado</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Turista</td>
+                <td>Tarifa base</td>
+            </tr>
+            <tr>
+                <td>Turista Premium</td>
+                <td>+ 20–40% sobre turista</td>
+            </tr>
+            <tr>
+                <td>Business</td>
+                <td>+ 80–150% sobre turista</td>
+            </tr>
+            <tr>
+                <td>First</td>
+                <td>+ 200% o más sobre turista</td>
+            </tr>
+        </tbody>
+    </table>
+    <p style="font-size:0.85rem;">Los porcentajes son orientativos y cambian según la aerolínea, la ruta y la temporada.</p>
+
+    <div class="cta-whatsapp">
+        <h2>¿No sabes qué clase elegir?</h2>
+        <p>Envíanos tu ruta y presupuesto y te diremos qué clase y aerolínea te convienen más para ese viaje.</p>
+        <a class="boton-whatsapp"
+           href="https://wa.me/573001112233?text=Hola%20exploreworld,%20necesito%20ayuda%20para%20elegir%20clase%20y%20servicios%20de%20vuelo"
+           target="_blank" rel="noopener">
+            Escribir por WhatsApp
+        </a>
+        <a href="index.html#reservas" class="boton" style="max-width:260px; text-align:center;">Ver formulario de reservas</a>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        &copy; <span id="year"></span> exploreworld · Todos los derechos reservados.
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

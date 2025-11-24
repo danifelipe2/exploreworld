@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Vuelos nacionales - exploreworld</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <nav>
+            <div class="logo"></div>
+            <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">☰</button>
+            <ul id="navLinks">
+                <li><a href="index.html#inicio">Inicio</a></li>
+                <li><a href="index.html#vuelos">Vuelos</a></li>
+                <li><a href="index.html#hoteles">Hoteles</a></li>
+                <li><a href="index.html#transporte">Transporte</a></li>
+                <li><a href="index.html#reservas">Reservas</a></li>
+                <li><a href="index.html#recomendaciones">Recomendaciones</a></li>
+                <li><a href="index.html#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="container seccion-detalle">
+    <h1>Vuelos nacionales</h1>
+    <p>Explora los principales destinos dentro del país con horarios cómodos y tarifas pensadas para que puedas viajar más seguido.</p>
+
+    <!-- FOTO GRANDE -->
+    <img src="imagenes/vuelos-nacionales-hero.jpg" alt="Vuelos nacionales" class="hero-img">
+
+    <h2>Destinos destacados</h2>
+    <div class="grid-detalle">
+        <div class="tarjeta-precio">
+            <h3>Bogotá → Medellín</h3>
+            <p>Vuelos diarios, ideal para viajes de trabajo o escapadas rápidas.</p>
+            <p><strong>Desde:</strong> 120 USD ida y vuelta*</p>
+        </div>
+        <div class="tarjeta-precio">
+            <h3>Bogotá → Cartagena</h3>
+            <p>Perfecto para fines de semana de sol, playa y gastronomía.</p>
+            <p><strong>Desde:</strong> 150 USD ida y vuelta*</p>
+        </div>
+        <div class="tarjeta-precio">
+            <h3>Medellín → San Andrés</h3>
+            <p>Escápate al paraíso con aguas turquesa y arena blanca.</p>
+            <p><strong>Desde:</strong> 210 USD ida y vuelta*</p>
+        </div>
+    </div>
+
+    <h2>Ejemplos de tarifas</h2>
+    <table class="tabla-precios">
+        <thead>
+            <tr>
+                <th>Ruta</th>
+                <th>Temporada</th>
+                <th>Desde</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bogotá → Medellín</td>
+                <td>Baja</td>
+                <td>120 USD</td>
+            </tr>
+            <tr>
+                <td>Bogotá → Cartagena</td>
+                <td>Media</td>
+                <td>150 USD</td>
+            </tr>
+            <tr>
+                <td>Medellín → San Andrés</td>
+                <td>Alta</td>
+                <td>240 USD</td>
+            </tr>
+        </tbody>
+    </table>
+    <p style="font-size:0.85rem;">*Precios de referencia, pueden variar según fecha y disponibilidad.</p>
+
+    <!-- CTA WHATSAPP -->
+    <div class="cta-whatsapp">
+        <h2>¿Quieres una cotización personalizada?</h2>
+        <p>Cuéntanos desde qué ciudad sales, a dónde quieres ir y tus fechas aproximadas. Te enviamos las mejores opciones sin compromiso.</p>
+        <a class="boton-whatsapp"
+           href="https://wa.me/573001112233?text=Hola%20exploreworld,%20quiero%20cotizar%20vuelos%20nacionales"
+           target="_blank" rel="noopener">
+            Escribir por WhatsApp
+        </a>
+        <a href="index.html#reservas" class="boton" style="max-width:220px; text-align:center;">Ir al formulario de reservas</a>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        &copy; <span id="year"></span> exploreworld · Todos los derechos reservados.
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
